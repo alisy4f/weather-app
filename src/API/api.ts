@@ -2,7 +2,8 @@ import axios from 'axios';
 
 
 // API key untuk OpenWeatherMap
-const apiKey = process.env.API_KEY;
+//const apiKey = process.env.API_KEY;
+const apiKey = '28aceebdd01225c587a2383f8b34dbfd'
 
 // Fungsi untuk mendapatkan koordinat (longitude dan latitude) berdasarkan lokasi yang dimasukkan
 export const getCoordinates = async (location: string) => {
