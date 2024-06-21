@@ -2,7 +2,7 @@ import { useState, useEffect, ChangeEvent, KeyboardEvent, MouseEvent } from 'rea
 import SearchBar from './components/SearchBar';
 import WeatherInfo from './components/WeatherInfo';
 import { getCoordinates, getWeather } from './API/api';
-import dotenv from 'dotenv';
+//import dotenv from 'dotenv';
 
 // Definisi struktur data untuk data cuaca yang diterima dari API
 interface WeatherData {
@@ -21,7 +21,7 @@ interface WeatherData {
 }
 
 function App() {
-  dotenv.config();
+  //dotenv.config();
   
   const [data, setData] = useState<WeatherData>({});
   const [location, setLocation] = useState<string>('');
