@@ -1,0 +1,71 @@
+### Weather App
+
+This Weather App is a simple web application built with TypeScript and React. It allows users to search for weather information based on location and displays details such as temperature, feels like temperature, humidity, and wind speed.
+
+#### Preview
+
+To see the Weather App in action, [click here](https://your-weather-app-url.com).
+
+#### Features
+
+- Search for weather information by entering a location.
+- Displays current temperature in Celsius.
+- Shows "Feels Like" temperature, humidity, and wind speed.
+- Responsive design suitable for various screen sizes.
+
+#### Technologies Used
+
+- TypeScript
+- React
+- Axios (for making HTTP requests)
+- CSS (for styling)
+
+#### How to Use
+
+1. **Search for Weather Information**
+   - Enter a location in the input field and press Enter or click the "Search" button.
+
+2. **View Weather Details**
+   - Once the location is found, the app displays the current weather details including temperature, "Feels Like" temperature, humidity, and wind speed.
+
+3. **Interact with Weather Data**
+   - Toggle between different locations to see their respective weather details.
+
+#### Setup Instructions
+
+To set up the Weather App locally, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/weather-app.git
+   ```
+
+2. Navigate into the project directory:
+   ```
+   cd weather-app
+   ```
+
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+4. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
+   ```
+   REACT_APP_API_KEY=your_openweathermap_api_key
+   ```
+
+5. Start the development server:
+   ```
+   npm start
+   ```
+
+6. Open your browser and visit `http://localhost:3000` to view the Weather App.
+
+#### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+#### Acknowledgments
+
+- This Weather App utilizes data from OpenWeatherMap API.
